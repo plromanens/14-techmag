@@ -10,4 +10,8 @@ html {
 body {
   max-width: 320px;
   margin: auto;
+  font-family: 'Montserrat';
+  font-style: sans-serif;
 }
+
+/* figure mettre margin 0 */
