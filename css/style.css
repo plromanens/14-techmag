@@ -2,7 +2,7 @@
   font-family: 'Montserrat', sans-serif; 100it/800
   font-family: 'Open Sans', sans-serif; 400/400it/700/700it
 */
-
+/* article box shadow */
 html {
   scroll-behavior: smooth;
 }
@@ -10,8 +10,79 @@ html {
 body {
   max-width: 320px;
   margin: auto;
-  font-family: 'Montserrat';
-  font-style: sans-serif;
+  font-family: sans-serif;
+  background-color: black;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
 }
 
+header {
+  margin-top: 17px;
+}
+
+.div_header {
+  color: white;
+  background-image: url(../img/zoom_code.png);
+  box-sizing: border-box;
+  background-color: white;
+  border: 2px solid white;
+  padding: 53px 81px 55px 30px;
+}
+
+.magazine_title {
+  font-size: 25px;
+}
+
+.card {
+  color: #0e6b4a;
+}
+
+h1 {
+  font-size: 15px;
+}
+
+p {
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.number {
+  font-style: italic;
+  color: #2afca6;
+  font-weight: normal;
+  /* trouver comment rendre plus fin 2000*/
+
+}
 /* figure mettre margin 0 */
+div {
+  background-color: #2afca6;
+  padding: 35px 35px 51px 31px;
+  margin-top: 20px;
+}
+
+article {
+  background-color: white;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+figure {
+  margin: auto;
+  box-shadow: 1px 1px 1em black;
+}
+
+figcaption {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+
+/* trouver comment mettre une box autour de l ancre */
+
+footer p {
+  border: 2px solid #2afca6;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  margin: 20px 0 ;
+  padding: 17px;
+}
