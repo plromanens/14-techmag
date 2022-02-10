@@ -26,7 +26,8 @@ header {
   box-sizing: border-box;
   background-color: white;
   border: 2px solid white;
-  padding: 53px 81px 55px 30px;
+  padding: 30px 10px 46px 30px;
+  font-size: 15px;
 }
 
 .magazine_title {
@@ -35,15 +36,17 @@ header {
 
 .card {
   color: #0e6b4a;
-}
-
-h1 {
-  font-size: 15px;
+  /* padding: 40px; */
 }
 
 p {
-  font-size: 15px;
+  /* font-size: 15px; */
   font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 16px;
+  /* padding-bottom: 20px; */
 }
 
 .number {
@@ -51,38 +54,61 @@ p {
   color: #2afca6;
   font-weight: normal;
   /* trouver comment rendre plus fin 2000*/
-
 }
 /* figure mettre margin 0 */
+
+.caption {
+  color: #a4a4a4;
+  font-size: 12px;
+}
+
+.date{
+  color: black;
+}
+
+.name {
+  color: #2afca6;
+}
+
 div {
   background-color: #2afca6;
-  padding: 35px 35px 51px 31px;
+  padding: 32px 35px 30px 31px;
   margin-top: 20px;
 }
 
 article {
   background-color: white;
-  padding: 30px;
+  padding: 10px 30px;
   margin-top: 20px;
 }
 
 figure {
-  margin: auto;
+  margin: 20px 0px;
   box-shadow: 1px 1px 1em black;
+  font-size: 12px;
 }
 
 figcaption {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
+  padding: 10px;
 }
 
 /* trouver comment mettre une box autour de l ancre */
+
+.button {
+  font-size: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: #444444;
+  padding: 6px 20px ;
+}
 
 footer p {
   border: 2px solid #2afca6;
   color: white;
   text-align: center;
   font-size: 10px;
-  margin: 20px 0 ;
+  margin: 20px 0;
   padding: 17px;
 }
