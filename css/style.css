@@ -1,8 +1,3 @@
-/*
-  font-family: 'Montserrat', sans-serif; 100it/800
-  font-family: 'Open Sans', sans-serif; 400/400it/700/700it
-*/
-/* article box shadow */
 html {
   scroll-behavior: smooth;
 }
@@ -12,7 +7,6 @@ body {
   margin: auto;
   font-family: sans-serif;
   background-color: black;
-  /* font-family: 'Open Sans', sans-serif; */
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -36,33 +30,29 @@ header {
 
 .card {
   color: #0e6b4a;
-  /* padding: 40px; */
 }
 
 p {
-  /* font-size: 15px; */
   font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
   font-size: 16px;
-  /* padding-bottom: 20px; */
+  margin-bottom: 20px;
 }
 
 .number {
   font-style: italic;
   color: #2afca6;
   font-weight: normal;
-  /* trouver comment rendre plus fin 2000*/
 }
-/* figure mettre margin 0 */
 
 .caption {
   color: #a4a4a4;
   font-size: 12px;
 }
 
-.date{
+.date {
   color: black;
 }
 
@@ -72,14 +62,16 @@ h1 {
 
 div {
   background-color: #2afca6;
-  padding: 32px 35px 30px 31px;
+  color: #0e6b4a;
+  padding: 25px 30px 30px 31px;
   margin-top: 20px;
 }
 
 article {
   background-color: white;
-  padding: 10px 30px;
+  padding: 10px 30px 15px 30px;
   margin-top: 20px;
+  padding-bottom: 30px;
 }
 
 figure {
@@ -94,14 +86,12 @@ figcaption {
   padding: 10px;
 }
 
-/* trouver comment mettre une box autour de l ancre */
-
 .button {
   font-size: 10px;
   text-decoration: none;
   color: white;
   background-color: #444444;
-  padding: 6px 20px ;
+  padding: 5px 15px;
 }
 
 footer p {
