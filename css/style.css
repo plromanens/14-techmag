@@ -14,7 +14,7 @@ header {
   margin-top: 17px;
 }
 
-.div_header {
+.div-header {
   color: white;
   background-image: url(../img/zoom_code.png);
   box-sizing: border-box;
@@ -24,7 +24,7 @@ header {
   font-size: 15px;
 }
 
-.magazine_title {
+.magazine-title {
   font-size: 25px;
 }
 
